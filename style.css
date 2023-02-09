@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.Light-section{
+    background-image: url("/images/banner/banner1.png");
+    height: 100vh;
+    width: 100%;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
