@@ -1,6 +1,10 @@
-body{
+*{
     margin: 0;
     padding: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .Light-section{
     background-image: url("/images/banner/banner1.png");
@@ -9,4 +13,40 @@ body{
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
+}
+.container{ width: 90%;
+display: block;
+margin: auto;} 
+.light{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+.light-left{
+    width: 50%;
+}
+
+.light-Right{
+    width: 40%;
+    text-align: right;
+
+}
+.light-Right h1{
+    font-size: 60px;
+    line-height: 65px;
+}
+
+.light-Right p{
+    padding-left: 10%;
+    margin: 20px 0px;
+}
+
+.light-Right button{
+    background-color: #f77e0d;
+    border: 0;
+    color: #ffff;
+    padding: 18px 25px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
 }
