@@ -103,12 +103,12 @@ margin: auto;}
     font-size: 40px;
 }
 .plan{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    padding: 0px 7%;
+    display: flex;
+    margin-left: 5%;
 }
 .plan-content {
     text-align: center;
+    width: 25%;
 }
 .watch{
     margin: 5% 7%;
